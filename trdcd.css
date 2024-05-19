@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    
+}
+body{
+    background-color: rgb(187, 188, 189);
+
+}
+.dogcont{
+    padding: 30px;
+}
+.dogcont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 70px;
+}
+.Dog{
+    width:300px;
+    overflow: auto;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 5px 8px 8px 8px rgb(137, 137, 223);
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+.Dog h2{
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.Dog p{
+    line-height: 1.2;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    display: inline-block;
+}
+.Dog img{
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+
+}
+.Dog .life-span{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    border-top: 8px;
+    padding-bottom: 8px;
+}
+.Dog.life-span{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    border-top: 8px;
+    padding-bottom: 8px;
+
+
+}
+.Dog.life-span:nth-of-type(2){
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    border-top: 8px;
+    padding-bottom: 8px;
+}
+.Dog .mass{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    border-top: 8px;
+    padding-bottom: 8px;
+}
+.about{
+    font-size: 15px;
+    padding-top:7px ;
+    padding-bottom: 8px;
+    /* color: blue; */
+}
+.about .about{
+    
+}
+.readmore{
+    display: inline-block;
+    text-decoration: none;
+    
+
+}
+/* .card img{
+    height: 350px;
+    width: 250px;
+    transform: translateY(-30px); */
+    
+
+
+}
+/* .card-describtion{
+    height: 0;
+    text-align: justify;
+    min-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+    color: #fff;
+    transition: 5s , 5s , padding 5s, min-height 5s; */
+}
+/* .card:hover.card-describtion{
+    padding: 20px 35px;
+    height: initial;
+    min-height: 150px;
+    color: #000; */
+/* }
+.card:hover.stats-content{
+    opacity: 1;
+}
+.stats-content{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    padding: 0 !important;
+    background:#54b945 ;
+    color:#fff ;
+    border-radius: 0 0 20px 20px;
+    transition: 1.5s 0.6s linear;
+
+}
+.dog-content{
+    background: #333;
+}
+.label{
+    text-align: center;
+    font-weight:bold ;
+}
+.value{
+    text-align: center;
+} */
